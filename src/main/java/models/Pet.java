@@ -13,14 +13,14 @@ public class Pet {
 
 
 
-    Public Pet(String breed, String name, Date birth_date, List vaccinations, Employee veterinarian) {
-        this.id = id;
-        this.breed = breed;
-        this.name = name;
-        this.birth_date = birth_date;
-        this.vaccinations = vaccinations;
-        this.veterinarian = veterinarian;
-    }
+//    Public Pet(String breed, String name, Date birth_date, List vaccinations, Employee veterinarian) {
+//        this.id = id;
+//        this.breed = breed;
+//        this.name = name;
+//        this.birth_date = birth_date;
+//        this.vaccinations = vaccinations;
+//        this.veterinarian = veterinarian;
+//    }
 
     public String getBreed() {
         return breed;
