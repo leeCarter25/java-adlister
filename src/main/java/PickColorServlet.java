@@ -18,4 +18,5 @@ public class PickColorServlet extends HttpServlet {
         String url = "/viewcolor?color=" + color;
         resp.sendRedirect(url);
     }
+    //
 }
