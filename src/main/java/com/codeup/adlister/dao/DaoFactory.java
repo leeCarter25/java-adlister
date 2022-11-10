@@ -1,5 +1,7 @@
 package com.codeup.adlister.dao;
 
+import javax.servlet.jsp.jstl.core.Config;
+
 public class DaoFactory {
     private static Ads adsDao;
     private static Config config = new Config();
@@ -10,4 +12,10 @@ public class DaoFactory {
         }
         return adsDao;
     }
+
+    public static Users getUsersDao() {
+        return getUsersDao();
+    }
+
+
 }
